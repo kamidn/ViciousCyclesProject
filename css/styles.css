@@ -1,0 +1,191 @@
+/*
+	Student name:   Duy Nguyen
+	Date:	        03/23/2021
+	File:	        styles.css
+    Purpose:        Project 1.
+*/
+
+/* Style specify 1 inch(~72pt or 6em) to left and right margin for body */
+body {
+	margin: 0em 6em;
+	border: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 13px;
+	color: #dedede;
+}
+
+/* Style specifies width for container */ 
+#container {
+	width: 100%;
+	min-height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px;
+	border-style: solid;
+	background-color: transparent;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	overflow: hidden;
+ 	display: block;
+ 	position: relative;
+ 	padding-bottom: 100px; /* height of your footer */
+}
+
+/* Style for header */
+header {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #ffffff;
+	clear: both;
+}
+
+/* Style for Main Nav */
+nav#mainNav {
+	margin: 1em 1em;
+	padding: 0;
+	clear: both;
+}
+
+/* Style for ul element in left nav, removed bullet, set padding, margin to 0 */
+nav#mainNav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 1em 1em;
+	clear: both;
+}
+
+/* Style for list item in main nav */
+nav#mainNav ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	float: left;
+}
+
+/* Style for hyperlink in main nav */
+nav#mainNav ul a {
+	display: block;
+	padding: 2px 5px;
+	font-size: 16px;
+}
+
+/* Style for hyperlink and visited link */
+nav#mainNav ul a:link, :visited {
+	color: #cdcdcd;
+	text-decoration: none;
+}
+
+/* Style for hyperlink onClick */
+nav#mainNav ul a:active {
+	color: #ff0000;
+}
+
+/* Style for hyperlink mouserOver */
+nav#mainNav ul a:hover {
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+/* Style for main remove border */
+main {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Specify styles for section element */
+section {
+	width: 45%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	float: left;
+}
+
+section#rightSection {
+	float: right;
+	width: 45%;
+}
+
+/* Style for article */
+article {
+	margin: 0;
+	border: 0;
+	padding: 0em .3em;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	color: #000000;
+	text-align: center;
+	margin: 0;
+	padding: 2px;
+	clear: both;
+	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+}
+
+/* Style for paragraph */
+p {
+	margin: .5em;
+	border: 0;
+	padding: 0em 1em;
+}
+
+/* Style for Heading 1 */
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	border: 0;
+	padding: 1em 1em;
+}
+
+/* Style for Heading 2*/
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	border: 0;
+	padding: 0 .5em;
+}
+
+/* Style for Heading 3 */
+h3 {
+	font-size: 12px;
+	text-align: center;
+	background-color: #ffffff;
+	margin: 0;
+	border: #000000 1px solid;
+	min-height: 30px;
+}
+
+/* Style for Heading 4 with specify background image */
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #c8c8c8;
+	margin: 0;
+	border: 0;
+	padding: 1em 1em;
+	background-image: url("../images/cougar.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+/* Style for Heading 5 */
+h5 {
+	font-size: 10px;
+}
+
+.clearBoth {
+	clear: both;
+}
