@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!--
 		Student name:   Duy Nguyen
-		Date:	        04/07/2021
-		File:	        purchase.html
+		Date:	        04/13/2021
+		File:	        contact.html
         Purpose:        Vicious Cycles Project
 -->
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="css/styles.css">
-	<title>Vicious Cycles - Online purchase form</title>
+	<title>Vicious Cycles - Contact Us</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -37,7 +37,7 @@
 	<!-- The main content of the webpage -->
 	<main>
 		<section>
-			<h1>Online purchase</h1>
+			<h1>Contact us</h1>
 			<!-- First article area -->
 			<article>
 				<form action="action_page.php">
@@ -59,14 +59,6 @@
 					</div>
 					<div class="row">
 						<div class="col-25">
-							<label for="address">Address</label>
-						</div>
-						<div class="col-75">
-							<input type="text" id="address" name="address" placeholder="Your address...">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-25">
 							<label for="phoneNo">Phone#</label>
 						</div>
 						<div class="col-75">
@@ -82,57 +74,24 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-25">Contact type</div>
-						<div class="col-75">
-							<div class="row-inline">
-								<label>
-									<input type="checkbox" name="call"> Call
-								</label>
-								<label>
-									<input type="checkbox" name="text"> Text
-								</label>
-								<label>
-									<input type="checkbox" name="email"> Email
-								</label>
-							</div>
+						<div class="col-25">
+							<label for="subject">subject</label>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-25">Delivery type</div>
 						<div class="col-75">
-							<div class="row-inline">
-								<label>
-									<input type="radio" id="delivery" name="deliveryType" value="Delivery" checked> Delivery
-								</label>
-								<label>
-									<input type="radio" id="pickup" name="deliveryType" value="Pickup"> Pickup
-								</label>
-							</div>
+							<input type="text" id="subject" name="subject" placeholder="Subject...">
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-25">
-							<label for="prodCond">Product's Condition</label>
+							<label for="message">Message</label>
 						</div>
 						<div class="col-75">
-							<select id="prodCond" name="prodCond">
-								<option value="australia">New</option>
-								<option value="canada">Pre-owned Certified</option>
-								<option value="usa">Used</option>
-							</select>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-25">
-							<label for="prodDetail">Product detail</label>
-						</div>
-						<div class="col-75">
-							<textarea id="prodDetail" name="prodDetail" placeholder="Product detail..." style="height:200px"></textarea>
+							<textarea id="message" name="message" placeholder="Your message..." style="height:200px"></textarea>
 						</div>
 					</div>
 					<div class="row">
 						<div class="row-inline">
-							<input type="button" value="Back" onclick="window.history.back();">
+							<input type="reset" value="Reset">
 					  		<input type="submit" value="Submit">
 						</div>
 					</div>
