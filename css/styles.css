@@ -60,13 +60,14 @@ h1 {
 	text-align: left;
 	margin: 0;
 	border: 0;
-	padding: .5em .5em;
+	padding: 0 .5em;
 }
 
 /* Style for Heading 2*/
 h2 {
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: bold;
+	text-align: left;
 	margin: 0;
 	border: 0;
 	padding: 0 .5em;
@@ -161,7 +162,7 @@ label {
 }
   
 /* Style the submit button */
-input[type=submit], input[type=button] {
+input[type=submit], input[type=button], input[type=reset] {
 	background-color: #4390BC;
 	color: white;
 	padding: 12px 20px;
@@ -217,7 +218,7 @@ input[type=submit], input[type=button] {
 /* Style the submit button */
 .row-inline button {
 	padding: 10px 20px;
-	background-color: dodgerblue;
+	background-color: #4390BC;
 }
 
 
@@ -281,6 +282,10 @@ article {
 	border-top: 0;
 	border-radius: 0em 0em 0em 3em;
 	margin-bottom: 1em;
+}
+article img {
+	width: 100%;
+	margin: 0.5em;
 }
 
 }
